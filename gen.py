@@ -194,5 +194,4 @@ def enum_years(year):
 
 if __name__ == '__main__':
     target = datetime.datetime.strptime(CLOSE_DATE_LIST[0], "%Y-%m-%d")
-    sc = enum_years(target.year)
-    print(sc)
+    print(enum_years(target.year))
